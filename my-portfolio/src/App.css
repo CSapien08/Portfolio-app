@@ -1,0 +1,26 @@
+/* ---HEADER--- */
+header {
+  background-color: #080808;
+  display: flex;
+  justify-content: space-between;
+  color: #EFEFEF;
+}
+a {
+  color: #EFEFEF !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #EFEFEF !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}
+.my-logo {
+  width: 150px;
+  margin: 15px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-right: 30px;
+}
