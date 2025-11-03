@@ -4,23 +4,65 @@ header {
   display: flex;
   justify-content: space-between;
   color: #EFEFEF;
+  position: fixed;
+  top: 0;
+  width: 100%
 }
+
 a {
   color: #EFEFEF !important;
   text-decoration: none !important;
 }
+
 a:hover {
   color: #EFEFEF !important;
   cursor: pointer !important;
   text-decoration: underline !important;
 }
+
 .my-logo {
-  width: 150px;
+  width: 100px;
   margin: 15px;
 }
+
+.marine-logo {
+  width: 100px;
+  margin: 15px;
+}
+
 .nav-links {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  padding-right: 30px;
+  padding-left: 700px;
+  padding-bottom: 40px;
+}
+
+/* Home Page */
+.home-page-parent {
+  padding-top: 125px;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 75px;
+  background-image: url(./imgs/stars.jpg);
+}
+
+.about-me-info {
+  outline: solid;
+  overflow: hidden;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+}
+
+.home-page-img {
+  outline: solid;
+  height: 500px;
+  width: 500px;
+  content:url(./imgs/Ryan-Dad-Padres.jpg);
+}
+
+.add-break {
+  white-space: pre-line;
 }

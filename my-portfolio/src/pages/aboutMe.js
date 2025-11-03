@@ -6,7 +6,7 @@ class AboutMe extends Component {
       return (
       <>
         
-        <h1>Who I am!</h1>
+        <h1>Who am I!</h1>
         <div>
             As you may already know my name is Chauncy Sapien. I am currently based out of the San Diego, California area where I live with my son, Ryan. 
             I recently graduated with my B.S. in Software Engineering from the University of California, Irvine. As of right now, I am currently enrolled in Learn 
