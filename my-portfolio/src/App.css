@@ -30,14 +30,6 @@ a:hover {
   margin: 15px;
 }
 
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  padding-left: 700px;
-  padding-bottom: 40px;
-}
-
 /* Home Page */
 .home-page-parent {
   padding-top: 125px;
@@ -45,7 +37,7 @@ a:hover {
   gap: 100px;
   justify-content: center;
   margin-top: 75px;
-  background-image: url(./imgs/stars.jpg);
+  /* background-image: url(./imgs/stars.jpg); */
 }
 
 .about-me-info {
@@ -60,7 +52,7 @@ a:hover {
   outline: solid;
   height: 500px;
   width: 500px;
-  content:url(./imgs/Ryan-Dad-Padres.jpg);
+  /* content:url(./imgs/Ryan-Dad-Padres.jpg); */
 }
 
 .add-break {
